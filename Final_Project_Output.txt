@@ -1,0 +1,589 @@
+==========================================
+ Company Z Employee Management System
+==========================================
+
+1. Login
+0. Exit
+Select option: 1
+Username: admin
+Password: admin123
+Login successful. Role: HR_ADMIN
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 1
+----------------------------------------
+Employee ID: 1
+Name: Snoopy Beagle
+Email: Snoopy@example.com
+Hire Date: 2022-08-01
+Salary: $45000.0
+SSN: 111-11-1111
+Address ID: 1
+Division: HQ
+Job Title: Chief Info. Officer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: name
+Search value: Snoopy
+----------------------------------------
+Employee ID: 1
+Name: Snoopy Beagle
+Email: Snoopy@example.com
+Hire Date: 2022-08-01
+Salary: $45000.0
+SSN: 111-11-1111
+Address ID: 1
+Division: HQ
+Job Title: Chief Info. Officer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 2
+Employee ID: 16
+First name: Haolin
+Last name: Lyu
+Email: haolinlyu2@gmail.com
+Hire date (YYYY-MM-DD): 2026-04-26
+Salary: 100000
+SSN: 001234567
+Address ID: 1
+Division ID: 1
+Job Title ID: 102
+New employee added successfully.
+Employee login account created automatically.
+Username: haolin16
+Default Password: emp123
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu2@gmail.com
+Hire Date: 2026-04-26
+Salary: $100000.0
+SSN: 001234567
+Address ID: 1
+Division: Technology Engineering
+Job Title: software engineer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 3
+Employee ID to update: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu2@gmail.com
+Hire Date: 2026-04-26
+Salary: $100000.0
+SSN: 001234567
+Address ID: 1
+Division: Technology Engineering
+Job Title: software engineer
+----------------------------------------
+New email: haolinlyu929@gmail.com
+New salary: 150000
+New SSN: 001234567
+New address ID: 2
+Employee data updated successfully.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu929@gmail.com
+Hire Date: 2026-04-26
+Salary: $150000.0
+SSN: 001234567
+Address ID: 2
+Division: Technology Engineering
+Job Title: software engineer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 5
+Employee ID: 16
+Increase percentage: 10
+Salary updated successfully.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu929@gmail.com
+Hire Date: 2026-04-26
+Salary: $165000.0
+SSN: 001234567
+Address ID: 2
+Division: Technology Engineering
+Job Title: software engineer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 6
+Minimum salary: 15000
+Maximum salary: 50000
+Increase percentage: 5
+9 salary record(s) updated.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 7
+Division ID: 1
+Increase percentage: 3
+3 salary record(s) updated by division.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 8
+Employee ID: 16
+New Division ID: 2
+New Job Title ID: 103
+Employee division/job title updated successfully.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu929@gmail.com
+Hire Date: 2026-04-26
+Salary: $169950.0
+SSN: 001234567
+Address ID: 2
+Division: Marketing
+Job Title: software developer
+----------------------------------------
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 9
+Pay date (YYYY-MM-DD): 2026-01-31
+Pay Date: 2026-01-31
+Total Earnings: $6192.31
+Total Deductions: $3415.06
+Estimated Net Total: $2777.2500000000005
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 10
+Month (YYYY-MM): 2026-01
+
+Total Pay by Job Title for 2026-01
+Job Title                      Total Pay   
+Chief Exec. Officer            $923.08      
+Chief Finn. Officer            $1057.69     
+Chief Info. Officer            $865.38      
+marketing associate            $634.62      
+software architect             $826.92      
+software engineer              $1884.62     
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 11
+Month (YYYY-MM): 2026-01
+
+Total Pay by Division for 2026-01
+Division                       Total Pay   
+HQ                             $2846.15     
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 12
+Start date (YYYY-MM-DD): 2022-01-01
+End date (YYYY-MM-DD): 2026-12-31
+
+New Hires from 2022-01-01 to 2026-12-31
+empID      First Name      Last Name       Hire Date   
+16         Haolin          Lyu             2026-04-26  
+6          PigPin          Dusty           2022-10-01  
+5          Linus           Blanket         2022-09-01  
+4          Pepermint       Patti           2022-08-02  
+1          Snoopy          Beagle          2022-08-01  
+3          Lucy            Doctor          2022-07-03  
+2          Charlie         Brown           2022-07-01  
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 0
+Logged out.
+
+1. Login
+0. Exit
+Select option: 1
+Username: haolin16
+Password: emp123
+Login successful. Role: EMPLOYEE
+
+========== EMPLOYEE MENU ==========
+1. View My Personal Information
+2. View My Pay Statement History
+0. Logout
+Select option: 1
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu929@gmail.com
+Hire Date: 2026-04-26
+Salary: $169950.0
+SSN: 001234567
+Address ID: 2
+Division: Marketing
+Job Title: software developer
+----------------------------------------
+
+========== EMPLOYEE MENU ==========
+1. View My Personal Information
+2. View My Pay Statement History
+0. Logout
+Select option: 2
+
+Pay Statement History
+PayID  PayDate      Earnings   FedTax     FedMed     FedSS      StateTax   401K       Health    
+No payroll records found.
+
+========== EMPLOYEE MENU ==========
+1. View My Personal Information
+2. View My Pay Statement History
+0. Logout
+Select option: 0
+Logged out.
+
+1. Login
+0. Exit
+Select option: 1
+Username: snoopy
+Password: emp123
+Login successful. Role: EMPLOYEE
+
+========== EMPLOYEE MENU ==========
+1. View My Personal Information
+2. View My Pay Statement History
+0. Logout
+Select option: 2
+
+Pay Statement History
+PayID  PayDate      Earnings   FedTax     FedMed     FedSS      StateTax   401K       Health    
+1      2026-01-31   865.38     276.92     12.55      53.65      103.85     3.46       26.83     
+2      2025-12-31   923.08     295.38     13.38      57.23      110.77     3.69       28.62     
+
+========== EMPLOYEE MENU ==========
+1. View My Personal Information
+2. View My Pay Statement History
+0. Logout
+Select option: 0
+Logged out.
+
+1. Login
+0. Exit
+Select option: 1
+Username: admin
+Password: admin123
+Login successful. Role: HR_ADMIN
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 4
+Employee ID to delete: 16
+----------------------------------------
+Employee ID: 16
+Name: Haolin Lyu
+Email: haolinlyu929@gmail.com
+Hire Date: 2026-04-26
+Salary: $169950.0
+SSN: 001234567
+Address ID: 2
+Division: Marketing
+Job Title: software developer
+----------------------------------------
+Are you sure? Type YES to delete: YES
+Employee and login account deleted successfully.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 1
+Search types: empid, name, ssn
+Search type: empid
+Search value: 16
+No matching employees found.
+
+========== HR ADMIN MENU ==========
+1. Search Employee
+2. Add New Employee
+3. Update Employee Data
+4. Delete Employee
+5. Update One Employee Salary
+6. Increase Salary by Salary Range
+7. Increase Salary by Division
+8. Update Employee Division / Job Title
+9. Total Payroll Summary by Pay Date
+10. Total Pay by Job Title
+11. Total Pay by Division
+12. New Employee Hires by Date Range
+0. Logout
+Select option: 0
+Logged out.
+
+1. Login
+0. Exit
+Select option: 0
+Program closed.
