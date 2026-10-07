@@ -1,3 +1,7 @@
+> **Archived course submission.** This folder is the original CSC3350 Software Development group project
+> (console application + JDBC + MySQL scripts), kept unchanged for reference. The maintained version is the
+> Spring Boot application at the repository root; see `../docs/legacy_mapping.md` for what changed.
+
 # Employee Management System
 
 ## CSC3350 Software Development Final Project  
