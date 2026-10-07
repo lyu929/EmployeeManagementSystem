@@ -1,6 +1,9 @@
+target/
 *.class
-.DS_Store
-.vscode/
+*.log
+.env
 .idea/
-mysql-connector-j-9.7.0.jar
-Final_Project_Output.txt
+.vscode/
+*.iml
+.DS_Store
+lib/

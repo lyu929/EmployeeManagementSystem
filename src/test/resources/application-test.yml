@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:ems-test;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+
+app:
+  security:
+    jwt-secret: dGVzdC1vbmx5LWp3dC1zZWNyZXQta2V5LWZvci11bml0LXRlc3Rz
+    ssn-encryption-key: dGVzdC1vbmx5LXNzbi1hZXMta2V5LTMyLWJ5dGVzISE=
+    ssn-hmac-key: dGVzdC1vbmx5LXNzbi1obWFjLWtleS1kaWZmZXJlbnQhIQ==
+  demo-data:
+    enabled: true

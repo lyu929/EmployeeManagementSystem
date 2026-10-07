@@ -1,0 +1,15 @@
+# Local development: in-memory H2 in MySQL mode, demo data, fixed non-secret keys.
+spring:
+  datasource:
+    url: jdbc:h2:mem:ems;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+
+app:
+  security:
+    # 32-byte keys, base64. FOR DEVELOPMENT ONLY – production refuses to start without real secrets.
+    jwt-secret: ZGV2LW9ubHktand0LXNlY3JldC1jaGFuZ2UtbWUtMTIzNDU2Nzg5MA==
+    ssn-encryption-key: ZGV2LW9ubHktc3NuLWFlcy1rZXktMzItYnl0ZXMhISE=
+    ssn-hmac-key: ZGV2LW9ubHktc3NuLWhtYWMta2V5LTMyLWJ5dGVzISE=
+  demo-data:
+    enabled: true

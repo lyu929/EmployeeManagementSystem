@@ -1,0 +1,33 @@
+# Production-like stack: MySQL 8.4 + the API (prod profile). Copy .env.example to .env first.
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: employee_data
+      MYSQL_USER: ${EMS_DB_USER}
+      MYSQL_PASSWORD: ${EMS_DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
+      interval: 10s
+      retries: 10
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      EMS_DB_URL: jdbc:mysql://db:3306/employee_data
+      EMS_DB_USER: ${EMS_DB_USER}
+      EMS_DB_PASSWORD: ${EMS_DB_PASSWORD}
+      EMS_JWT_SECRET: ${EMS_JWT_SECRET}
+      EMS_SSN_KEY: ${EMS_SSN_KEY}
+      EMS_SSN_HMAC_KEY: ${EMS_SSN_HMAC_KEY}
+      EMS_ADMIN_USERNAME: ${EMS_ADMIN_USERNAME}
+      EMS_ADMIN_PASSWORD: ${EMS_ADMIN_PASSWORD}
+    ports:
+      - "8080:8080"
+volumes:
+  db-data:

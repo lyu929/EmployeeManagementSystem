@@ -1,0 +1,12 @@
+# Production: MySQL 8, secrets from the environment, no demo data.
+spring:
+  datasource:
+    url: ${EMS_DB_URL:jdbc:mysql://localhost:3306/employee_data}
+    username: ${EMS_DB_USER}
+    password: ${EMS_DB_PASSWORD}
+    hikari:
+      maximum-pool-size: 10
+
+app:
+  demo-data:
+    enabled: false
