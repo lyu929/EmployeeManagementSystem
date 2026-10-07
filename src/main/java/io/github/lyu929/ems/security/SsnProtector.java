@@ -13,6 +13,7 @@ import javax.crypto.Cipher;
 import javax.crypto.Mac;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -35,6 +36,8 @@ public class SsnProtector {
     private final SecretKeySpec hmacKey;
     private final SecureRandom random = new SecureRandom();
 
+    /** The constructor Spring uses; the package-private one below is for tests with fixed keys. */
+    @Autowired
     public SsnProtector(AppProperties properties) {
         this(KeyMaterial.decode(properties.security().ssnEncryptionKey(), "app.security.ssn-encryption-key"),
                 KeyMaterial.decode(properties.security().ssnHmacKey(), "app.security.ssn-hmac-key"));
