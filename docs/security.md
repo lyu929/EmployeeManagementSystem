@@ -42,6 +42,10 @@
 * **Secrets.** All secrets come from the environment: `EMS_JWT_SECRET`, `EMS_SSN_KEY`,
   `EMS_SSN_HMAC_KEY` and the DB credentials. The application refuses to start if a key is missing or
   shorter than 32 bytes. The dev and test profiles use fixed, clearly labelled non-secret keys.
+  Startup rejects the public `dev-only-` and `test-only-` keys outside those local profiles,
+  rejects demo-data loading outside those profiles, and rejects combining `prod` with `dev` or `test`.
+  Public demo credentials must never be reused for real accounts or real data. Historical course
+  credentials in `legacy/` belong to the archived demonstration, not the maintained production service.
 
 ## HTTP
 
